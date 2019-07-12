@@ -1,0 +1,19 @@
+build_image:
+  script:
+    - docker build -t indulgee-api .
+  only:
+    - development
+    - release
+    - master
+
+deploy:
+  script:
+    - docker stop indulgee-api && docker rm indulgee-api
+    - docker run -P -d --name indulgee-api -v `pwd`/:/root/.aws -e HTTPS_METHOD=nohttps -e NODE_ENV=development -e VIRTUAL_HOST=indulgee.limpialo.com,indulgee.in.th indulgee-api
+  after_script:
+    - docker rmi `docker images | grep "<none>" | awk '{print $3}'`
+  only:
+    - master
+    - development
+    - release
+

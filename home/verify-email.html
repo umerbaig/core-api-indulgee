@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://kant.thememountain.com/html/index-app.html -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+  <meta name="twitter:widgets:theme" content="light">
+  <meta property="og:title" content="Your-Title-Here">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="Your-Image-Url">
+  <meta property="og:description" content="Your-Page-Description">
+  <title>Indulgee App Download</title>
+  <link rel="shortcut icon" type="image/x-icon" href="http://kant.thememountain.com/html//public/img/theme-mountain-favicon.ico">
+
+  <!-- Font -->
+  <link href="/public/css/fonts.css" rel="stylesheet" type="text/css">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="/public/css/core.min.css">
+  <link rel="stylesheet" href="/public/css/skin.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <style>
+    .fluidvids {
+      width: 100%;
+      max-width: 100%;
+      position: relative;
+    }
+
+    .fluidvids-item {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body class="shop home-page transition-support webkit" >
+
+  <!-- Side Navigation Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="scale-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation center">
+					<ul>
+						<li class="current">
+							<a href="#" class="contains-sub-menu">Indulgee</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="/">Home</a>
+								</li>
+								<li>
+									<a href="/signup">Provider Signup</a>
+								</li>
+								<li>
+									<a href="http://admin.indulgee.in.th/#/login">Provider Login</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer center">
+					<p class="copyright no-margin-bottom">&copy; 2017 INDULGEE.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Side Navigation Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+
+			<!-- Header -->
+			<header class="header with-shadow header-absolute header-fixed-on-mobile header-transparent nav-dark">
+				<div class="header-inner">
+					<div class="row nav-bar">
+						<div class="column width-12 nav-bar-inner">
+							<div class="logo">
+								<div class="logo-inner">
+									<a href="index.html"><img src="/public/img/logo-dark.png" alt="Kant Logo" /></a>
+									<a href="index.html"><img src="/public/img/logo.png" alt="Kant Logo" /></a>
+								</div>
+							</div>
+							<nav class="navigation nav-block secondary-navigation nav-right">
+								<ul>
+									<li class="aux-navigation">
+										<!-- Aux Navigation -->
+										<a href="#" class="navigation-show side-nav-show nav-icon">
+											<span class="icon-menu"></span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+
+				<!-- Hero Section 5 -->
+				<section style="max-height: 100%; height: 100%; min-height: 100%;" id="strategy" ng-app="emailVerifyApp" class="section-block hero-5 window-height right show-media-column-on-mobile">
+					<div class="media-column width-7 bkg-grey-ultralight">
+						<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-pagination="false" data-pause-on-hover="false" data-speed="2000" data-auto-advance data-auto-advance-interval="5000" data-progress-bar="false" data-scale-under="0" data-width="722">
+							<ul class="tms-slides">
+								<li class="tms-slide" data-image data-force-fit data-as-bkg-image data-animation="fade">
+									<img data-src="/public/img/hero-half.jpg" data-retina src="/public/img/blank.png" alt=""/>
+								</li>
+								<li class="tms-slide" data-image data-force-fit data-as-bkg-image data-animation="fade">
+									<img data-src="/public/img/hero-half-2.jpg" data-retina src="/public/img/blank.png" alt=""/>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="column width-4">
+              <div class="row" ng-controller="VerifyEmailController">
+                  <div ng-show="emailVerified" class="ng-hide column width-12 center">
+                    <h2>You are all set up. Email verified!</h2>
+										<h5>You can now login to the admin panel and start creating deals.</h5>
+										<p><a href="http://admin.indulgee.in.th">Login Here</a></p>
+                  </div>                
+                  <div ng-hide="emailVerified" class="column offset-2 width-9">
+                    <div class="hero-content split-hero-content">
+                      <div class="hero-content-inner left">
+                        <h3>Verify Email</h3>
+                        <p class="mb-20">Already a provider? <a href="http://admin.indulgee.in.th">Login Here</a></p>
+                        <div class="row">
+                          <div class="column width-12">
+                            <div class="login-form-container">
+                              <form class="login-form" name="verifyForm" novalidate>
+                                <div class="row">
+                                  <div class="column width-12">
+                                    <div class="field-wrapper">
+                                      <label class="color-charcoal">Email:</label>
+                                      <input type="email" ng-model="obj.email" name="email" class="form-username form-element rounded large"  tabindex="1" required>
+                                      <p class="ng-hide" ng-show="verifyForm.email.$error.required && verifyForm.email.$touched" style="color: red; margin-top: -10px;">Email is required.</p>
+                                      <p class="ng-hide" ng-show="verifyForm.email.$error.email && verifyForm.email.$touched" style="color: red; margin-top: -10px;">Please enter a valid email.</p>
+                                    </div>
+                                  </div>
+                                <div class="column width-12">
+                                    <div class="field-wrapper">
+                                      <label class="color-charcoal">Verification Code:</label>
+                                      <input type="text" ng-pattern="/^[0-9]*$/" minlength="4" maxlength="4" ng-model="obj.code" name="code" class="form-username form-element rounded large"  tabindex="1" required>
+                                      <p class="ng-hide" ng-show="verifyForm.code.$error.pattern && verifyForm.code.$touched" style="color: red; margin-top: -10px;">Code should consist of numbers only.</p>
+                                      <p class="ng-hide" ng-show="verifyForm.code.$error.required && verifyForm.code.$touched" style="color: red; margin-top: -10px;">Code is required.</p>
+                                      <p class="ng-hide" ng-show="verifyForm.code.$error.minlength && verifyForm.code.$touched" style="color: red; margin-top: -10px;">Code should be of 4 digits.</p>
+                                      <p class="ng-hide" ng-show="verifyForm.code.$error.maxlength && verifyForm.code.$touched" style="color: red; margin-top: -10px;">Code should be of 4 digits.</p>
+                                    </div>
+                                  </div>
+                                 
+                                  <div class="column width-12">
+                                    <button style="background-color: #3fb58b !important; color: white !important; width: 100%" ng-disabled="loading || verifyForm.$invalid" ng-class="(loading || verifyForm.$invalid) ? 'disabled' : ''" ng-click="submitData()" type="button" class="form-submit button btn-block rounded large bkg-green bkg-hover-theme color-white color-hover-white">
+                                      <span ng-hide="loading">Verify</span>
+                                      <div class="ng-hide tm-loader" ng-show="loading" style="position: static; margin: 0 auto;">
+                                        <div id="circle" style="border-bottom-color: white;"></div>
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                                <p class="ng-hide mt-20" ng-show="error" style="padding: 15px; border: 1px solid red;border-radius: 5px;color: red;">{{message}}</p>
+                              </form>
+                              <div class="form-response show"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+				</section>
+				<!-- Hero Section 5 End -->
+
+				<!-- Subscribe Advanced Modal End -->
+				<div id="subscribe-modal" class="section-block pt-0 pb-30 background-none hide">
+					
+					<!-- Intro Title Section 2 -->
+					<div class="section-block intro-title-2-1 xsmall bkg-grey-ultralight">
+						<div class="media-overlay bkg-black opacity-03"></div>
+						<div class="row">
+							<div class="column width-12">
+								<div class="title-container">
+									<div class="title-container-inner center color-white">
+										<h1 class="title-medium mb-0">Subscribe To Newsletter</h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Intro Title Section 2 End -->
+
+					<!-- Signup -->
+					<div class="section-block pt-60 pb-0">
+						<div class="row">
+							<div class="column width-12 center">
+								<div class="signup-form-container">
+									<div class="row">
+										<div class="column width-10 offset-1">
+											<p>Subscribe to our monthly newsletter and get the latest news from Kant. You can unsubscribe at any time.</p>
+										</div>
+									</div>
+									<form class="signup-form merged-form-elements" action="php/subscribe.php" method="post" novalidate>
+										<div class="row">
+											<div class="column width-8">
+												<div class="field-wrapper">
+													<input type="email" name="email" class="form-email form-element rounded large left" placeholder="Email address*" tabindex="2" required>
+												</div>
+											</div>
+											<div class="column width-4">
+												<input type="submit" value="Subscribe" class="form-submit button rounded large bkg-theme bkg-hover-green color-white color-hover-white">
+											</div>
+										</div>
+										<input type="text" name="honeypot" class="form-honeypot form-element">
+									</form>
+									<div class="form-response show"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Signup End -->
+
+				</div>
+				<!-- Subscribe Advanced Modal End -->
+
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="footer-top">
+					<div class="row flex">
+						<div class="column width-12">
+							<div class="widget">
+								<h3 class="widget-title">Kant.</h3>
+							</div>
+						</div>
+						<div class="column width-6">
+							<div class="widget">
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+						<div class="column width-4 offset-2 right left-on-mobile">
+							<div class="widget">
+								<a class="button rounded medium bkg-theme bkg-hover-green color-white color-hover-white mb-10 left">
+									<span class="icon-chat medium left"></span>
+									<span class="button-content">
+										<small>Need Some Help?</small> Contact Us
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="row">
+						<div class="column width-12">
+							<div class="footer-bottom-inner">
+								<p class="copyright pull-left clear-float-on-mobile">&copy; ThemeMountain. All Rights Reserved. <a href="#" class="scroll-to-top" data-no-hide>Back Top</a></p>
+								<ul class="social-list list-horizontal pull-right clear-float-on-mobile left">
+									<li><a href="#"><span class="icon-twitter-with-circle medium"></span></a></li>
+									<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
+									<li><a href="#"><span class="icon-dribbble-with-circle medium"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer End -->
+
+		</div>
+	</div>
+  
+
+  <!-- Js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/public/js/timber.master.min.js"></script>
+  <script src="/public/js/verify_email.js"></script>
+  
+</body>
+
+</html>
