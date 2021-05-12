@@ -48,7 +48,7 @@
     "jsonwebtoken": "^7.4.2",
     "mongoose": "^4.13.14",
     "node-uuid": "^1.4.8",
-    "nodemailer": "^3.1.4",
+    "nodemailer": "^6.4.16",
     "omise": "^0.5.4",
     "stripe": "^4.15.0",
     "twilio": "^3.6.1",
