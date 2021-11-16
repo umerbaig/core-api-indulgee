@@ -29,7 +29,7 @@
     "@slack/client": "^4.8.0",
     "async": "^2.1.5",
     "asyncawait": "^1.0.6",
-    "aws-sdk": "^2.96.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^1.0.2",
     "bell": "^8.7.0",
     "blipp": "^2.3.0",
