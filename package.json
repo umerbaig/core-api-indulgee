@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "@slack/client": "^4.8.0",
-    "async": "^2.1.5",
+    "async": "^2.6.4",
     "asyncawait": "^1.0.6",
     "aws-sdk": "^2.96.0",
     "bcrypt": "^1.0.2",
