@@ -46,7 +46,7 @@
     "inert": "^4.1.0",
     "joi": "^10.2.2",
     "jsonwebtoken": "^7.4.2",
-    "mongoose": "^4.13.14",
+    "mongoose": "^4.13.21",
     "node-uuid": "^1.4.8",
     "nodemailer": "^3.1.4",
     "omise": "^0.5.4",
