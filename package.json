@@ -45,7 +45,7 @@
     "hapi-i18n": "^1.0.5",
     "inert": "^4.1.0",
     "joi": "^10.2.2",
-    "jsonwebtoken": "^7.4.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^4.13.14",
     "node-uuid": "^1.4.8",
     "nodemailer": "^3.1.4",
